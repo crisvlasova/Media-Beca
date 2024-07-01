@@ -790,7 +790,7 @@ footer a {
         max-width: 400px;
         transition: 0.3s all ease-in-out 0s;
         img {
-            max-width: 400px;
+            width: 100%
         }
     }
 
