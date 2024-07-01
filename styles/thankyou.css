@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    --backgroundColor: #131313;
+    /* --prinColor: #FEDCB2; */
+    --prinColor: #DDDDDD;
+    --thirdColor: #080808;
+    --hoverColor: #1a1a1a;
+    --secondColor: #CD9E72;
+    --darkerColor: #9A510C;
+    --offWhite: #FFD6AF;
+    --offWhite2: #FFF2E5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: url(../assets/partyTime2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.contact-button {
+    padding: 10px 30px;
+    border: none;
+    max-width: 165px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(0deg, var(--secondColor) 50%, var(--offWhite)50%);
+    background-size: 340px 80px;
+    transition: 0.4s all ease-in-out 0s;
+}
+
+.contact-button:hover, .contact-button.reverse:hover {
+    background-position: 170px 0;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.contact-button a {
+    color: whitesmoke;
+    font-weight: 600;
+    transition: 0.4s all ease-in-out 0s;
+    text-decoration: none;
+}
+
+.contact-button:hover a {
+    color: var(--darkerColor);
+}
+
+
+.contact-button.reverse {
+    background: -webkit-linear-gradient(0deg, var(--offWhite) 50%, var(--secondColor)50%);
+    background-size: 340px 80px;
+}
+
+.contact-button.reverse a {
+    color: var(--darkerColor);
+    font-weight: 600;
+    transition: 0.4s all ease-in-out 0s;
+}
+
+.contact-button.reverse:hover a {
+    color: whitesmoke;
+}
+

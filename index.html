@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="./scripts/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="opener-animation">
+      <div class="hero-photo-container">
+          <img src="./assets/partyTime2.jpg" alt="Hero Photo" />
+          <div class="overlay">
+          </div>
+        </div>
+        <div class="hero-logo-button-container">
+          <img src="./assets/logo.png" alt="Hero Logo" />
+        </div>
+    </div>
+    <div class="side-bar">
+      <div class="side-bar-top">
+        <div class="res-navbar" onclick="handleClick(event)">
+          <div class="menu-icon">
+            <div class="menu-bars"></div>
+            <div class="menu-bars"></div>
+            <div class="menu-bars"></div>
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li><a href="#hero" onclick="handleClick(event)">INICIO</a></li>
+        <li><a href="#carrousel" onclick="handleClick(event)">NOSOTROS</a></li>
+        <li><a href="#services" onclick="handleClick(event)">SERVICIOS</a></li>
+        <li><a href="#statistics" onclick="handleClick(event)">ESTADISTICAS</a></li>
+        <li><a href="#contact" onclick="handleClick(event)">CONTACTO</a></li>
+      </ul>
+    </div>
+    <header id="hero">
+      <nav id="navbar">
+        <div class="width-config">
+          <img src="./assets/headerLogo.svg" alt="Matiss Logo" />
+          <ul>
+            <li><a href="#hero" onclick="handleClick(event)">INICIO</a></li>
+            <li><a href="#carrousel">NOSOTROS</a></li>
+            <li><a href="#services">SERVICIOS</a></li>
+            <li><a href="#statistics">ESTADISTICAS</a></li>
+            <li><a href="#contact">CONTACTO</a></li>
+          </ul>
+          <div class="res-navbar" onclick="handleClick(event)">
+            <div class="menu-icon">
+              <div class="menu-bars"></div>
+              <div class="menu-bars"></div>
+              <div class="menu-bars"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <div class="hero-photo-container">
+          <img src="./assets/imagen6.jpg" alt="Hero Photo" />
+          <div class="overlay">
+          </div>
+        </div>
+        <div class="hero-logo-button-container">
+          <img src="./assets/logo.png" alt="Hero Logo" />
+          <button class="contact-button">
+            <a href="#carrousel">
+              EMPECEMOS!
+            </a>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section id="carrousel" class="width-config">
+      <h2>
+        SOBRE NOSOTROS
+      </h2>
+      <div>
+        <p>
+          Somos Matíss, un salon con un estilo americano único, con un ambiente
+          cálido, hogareño y familiar; te ofrecemos la solución ideal para el
+          desarrollo de eventos sociales y corporativos. Acompañamos a nuestros
+          clientes con la búsqueda del mejor espacio que se ajuste a las
+          necesidades del evento. Nos distinguimos por nuestra calidad de
+          atención al cliente, nuestro estilo, nuestra comida y los servicios
+          que tenemos para ustedes. Tenemos capacidad de hasta 100 personas,
+          catering, barra de tragos y muchos servicios más que podes ver acá.
+          Estamos ubicados en Sarrachaga 5562, Isidro Casanova, La Matanza. Te
+          esperamos para conocer el espacio y asesorarte con todo lo relacionado
+          a tu evento!
+        </p>
+      </div>
+
+      <div class="carrousel-cards">
+        <div class="testimonial-container">
+          <figure>
+            <img
+              src="./assets/testimonials/testimonial1.jpg"
+              alt="Primer testinonio"
+            />
+            <section>
+              <h3>John Doe</h3>
+              <div class="star-review-container">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </section>
+          </figure>
+          <figure>
+            <img
+              src="./assets/testimonials/testimonial2.jpg"
+              alt="Primer testinonio"
+            />
+            <section>
+              <h3>John Doe</h3>
+              <div class="star-review-container">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </section>
+          </figure>
+          <figure>
+            <img
+              src="./assets/testimonials/testimonial3.jpg"
+              alt="Primer testinonio"
+            />
+            <section>
+              <h3>John Doe</h3>
+              <div class="star-review-container">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+                <img src="assets/star.png" alt="Review Star">
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </section>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>
+        NUESTROS SERVICIOS
+      </h2>
+      <div>
+        <figure class="right slide-from-right">
+          <img src="./assets/bear.jpg" alt="Bartender" />
+          <figcaption>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </p>
+            <button class="contact-button">
+              <a href="#contact">CONTACTANOS</a>
+            </button>
+          </figcaption>
+        </figure>
+        <figure class="left ">
+          <img src="./assets/lightRobot.jpeg" alt="Bartender" />
+          <figcaption>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </p>
+            <button class="contact-button">
+              <a href="#contact">CONTACTANOS</a>
+            </button>
+          </figcaption>
+        </figure>
+        <figure class="right">
+          <img src="./assets/photographer.jpg" alt="Bartender" />
+          <figcaption>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </p>
+            <button class="contact-button">
+              <a href="#contact">CONTACTANOS</a>
+            </button>
+          </figcaption>
+        </figure>
+        <figure class="left">
+          <img src="./assets/catering.jpg" alt="Bartender" />
+          <figcaption>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </p>
+            <button class="contact-button">
+              <a href="#contact">CONTACTANOS</a>
+            </button>
+          </figcaption>
+        </figure>
+        <figure class="right">
+          <img src="./assets/deco.jpg" alt="Bartender" />
+          <figcaption>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </p>
+            <button class="contact-button">
+              <a href="#contact">CONTACTANOS</a>
+            </button>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="services-last-text">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+          possimus non veritatis ut! Voluptas, sint doloribus temporibus, ad
+          assumenda provident excepturi esse eaque ea cumque eum cum! A, dolores
+          dignissimos.
+        </p>
+        <button class="contact-button reverse">
+          <a href="#contact">RESERVA YA!</a>
+        </button>
+      </div>
+    </section>
+
+    <section id="info-card" class="width-config">
+      <h2>
+        RESERVAS
+      </h2>
+      <div class="info-card-container">
+        <img src="./assets/partyIcon.png" alt="Party Icon" />
+        <div class="">
+          <h3>LOREM IPSUM</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+            possimus non veritatis ut! Voluptas, sint doloribus temporibus, ad
+            assumenda provident excepturi esse eaque ea cumque eum cum! A,
+            dolores dignissimos.Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Cumque possimus non veritatis ut! Voluptas, sint
+            doloribus temporibus, ad assumenda provident excepturi esse eaque ea
+            cumque eum cum! A, dolores dignissimos.
+          </p>
+          <button class="contact-button">
+            <a href="#contact">CONTACTANOS</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="statistics">
+      <h2>
+        ESTADISTICAS
+      </h2>
+      <div class="cards width-config">
+        <div class="stad-card">
+          <h2>
+            <data value="1250">1250</data>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              possimus non veritatis ut! Voluptas, sint doloribus temporibus
+          </p>
+        </div>
+        <div class="stad-card">
+          <h2>
+            <data value="450">450</data>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              possimus non veritatis ut! Voluptas, sint doloribus temporibus
+          </p>
+        </div>
+        <div class="stad-card">
+          <h2>
+            <data value="180">180</data>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+            possimus non veritatis ut! Voluptas, sint doloribus temporibus
+          </p>
+        </div>
+        <div class="stad-card">
+          <h2>
+            <data value="785">785</data>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              possimus non veritatis ut! Voluptas, sint doloribus temporibus
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="map">
+      <img src="./assets/arabesque.png" alt="Arabesque" />
+      <div style="width: 100%">
+        <iframe
+          width="100%"
+          height="400"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=avenida%20siempre%20viva%201234+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ><a href="https://www.gps.ie/car-satnav-gps/"
+            >Car Navigation Systems</a
+          ></iframe
+        >
+      </div>
+      <img src="./assets/arabesque.png" alt="Arabesque" />
+    </div>
+
+    <div id="contact" class="width-config">
+      <div class="contact-form-info">
+        <h2>
+          CONTACTANOS!
+        </h2>
+        <h3>Escribinos tu consulta personalizada!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+          blanditiis eaque. Provident suscipit soluta qui consequatur tempora
+          esse molestiae? Ipsam sit mollitia nesciunt tenetur cumque sed
+          accusantium error aliquam totam. Ipsam sit mollitia nesciunt tenetur
+          cumque sed accusantium error aliquam totam.
+        </p>
+        <div class="contact-info">
+          <ul>
+            <li>
+              <img src="assets/icons/wpp-light.png" alt="Whatsapp logo" />
+              <a href="#">(+54-11) 1234-5678</a>
+            </li>
+            <li>
+              <img src="assets/icons/igg-light.png" alt="Instagram Logo" />
+              <a href="#">@matiss</a>
+            </li>
+            <li>
+              <img src="assets/icons/mail-light.png" alt="Mail logo" />
+              <a href="#">contacto@matiss.com</a>
+            </li>
+            <li>
+              <img src="assets/icons/loc-light.png" alt="Location logo" />
+              <a href="#"
+                >Av Siempre Viva 1234, <br />
+                Ciudad Autónoma de Buenos Aires, <br />
+                Argentina.
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form action="GET" enctype="text/plain" id="form">
+        <div class="input-row">
+          <label for="name">
+            <p>Nombre</p>
+            <input type="text" name="name" id="name" placeholder="Nombre" />
+          </label>
+          <label for="surname">
+            <p>Apellido</p>
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Apellido"
+            />
+          </label>
+        </div>
+        <div class="input-row">
+          <label for="email">
+            <p>Email</p>
+            <input type="mail" name="email" id="email" placeholder="Email" />
+          </label>
+          <label for="phone">
+            <p>Telefono</p>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="Telefono"
+            />
+          </label>
+        </div>
+        <div class="input-block">
+          <label for="message">
+            <p>Tu mensaje</p>
+            <textarea
+              name="message"
+              id="message"
+              rows="7"
+              placeholder="Tu mensaje"
+            ></textarea>
+          </label>
+        </div>
+        <button type="submit">CONTACTANOS</button>
+      </form>
+    </div>
+
+    <footer id="footer">
+      <div class="width-config">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="./assets/logoBlack.png" alt="Footer Logo" />
+          </div>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#hero">INICIO</a></li>
+              <li><a href="#carrousel">NOSOTROS</a></li>
+              <li><a href="#services">SERVICIOS</a></li>
+              <li><a href="#statistics">ESTADISTICAS</a></li>
+              <li><a href="#contact">CONTACTO</a></li>
+            </ul>
+          </nav>
+          <div class="contact-info">
+            <ul>
+              <li>
+                <img src="assets/icons/whatsapp-logo.png" alt="Whatsapp logo" />
+                <a href="#" title="(+54-11) 1234-5678">(+54-11) 1234-5678</a>
+              </li>
+              <li>
+                <img
+                  src="assets/icons/instagram-logo.png"
+                  alt="Instagram Logo"
+                />
+                <a href="#" title="@matiss">@matiss</a>
+              </li>
+              <li>
+                <img src="assets/icons/mail-logo.png" alt="Mail logo" />
+                <a href="#" title="contacto@matiss.com">contacto@matiss.com</a>
+              </li>
+              <li>
+                <img src="assets/icons/loc-logo.png" alt="Location logo" />
+                <a
+                  href="#"
+                  title="Av Siempre Viva 1234, <br />
+                Ciudad Autónoma de Buenos Aires, <br />
+                Argentina."
+                  >Av Siempre Viva 1234, <br />
+                  Ciudad Autónoma de Buenos Aires, <br />
+                  Argentina.
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="coppy-right">
+        <p>
+          © 2024 Cristina Vlassov. Todos los derechos reservados.
+          | Powered by: <a href="https://cristinavlassov.vercel.com" rel="noopener noreferer">
+            cristinavlassov.vercel.app
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
